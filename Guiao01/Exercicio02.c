@@ -11,11 +11,11 @@ void rotacao(float *a, float *b, float *c){
 }
 
 int main(){
-    float a=1.23, b=2.34, c=3.45;
+    float a=1.00, b=2.00, c=3.00;
 
-    printf("%f, %f, %f\n",a,b,c);
+    printf("%.2f, %.2f, %.2f\n",a,b,c);
     rotacao(&a,&b,&c);
-    printf("%f, %f, %f",a,b,c);
+    printf("%.2f, %.2f, %.2f",a,b,c);
 
     printf("\n");
     return 0;
