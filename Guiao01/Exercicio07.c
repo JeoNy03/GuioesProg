@@ -2,6 +2,8 @@
 
 #define TAM 5
 
+// NÃO TERMINADO
+
 void procura_dupla(int *tab, int tam, int *prim, int *seg){
     *prim=*tab;
 
