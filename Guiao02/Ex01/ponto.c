@@ -1,17 +1,11 @@
 #include <stdio.h>
 #include "ponto.h"
 
-// alinea b)
-void printPonto(ponto2D a){
-    printf("Ponto: (%d,%d)\n", a.x, a.y);
+void imprime_ponto(ponto p){
+    printf("(%d, %d)", p.x,p.y);
 }
 
-// alinea c)
-void initPonto(ponto2D* p){
-    // completar a função
-}
-
-// alinea d)
-void movePonto(ponto2D* p, int dx, int dy){
-    // completar a função
+void init_ponto(ponto *p){
+    printf("Insira as coordenadas(x y):");
+    scanf("%d %d", &(p->x), &(p->y)); // ou &((*p).x)
 }

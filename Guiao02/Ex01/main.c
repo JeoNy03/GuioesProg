@@ -1,20 +1,15 @@
 #include <stdio.h>
-
 #include "ponto.h"
 
-int main(int argc, char** argv) {
-    
-    ponto2D p1 = {1,3}, p2;
-    
-    initPonto(&p2);
-    
-    printPonto(p1);
-    
-    printPonto(p2);
-    
-    movePonto(&p1, 3, -2);
-    printPonto(p1);
+int main() {
 
+    ponto p1 = {2,3};
+    // Usar C99 - ponto p2 = {.y=3, .x=2};
+    ponto p3;
+
+    imprime_ponto(p1);
+    init_ponto(&p3);
+
+    printf("\n");
     return 0;
 }
-

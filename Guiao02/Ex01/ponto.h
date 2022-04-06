@@ -1,21 +1,16 @@
-#ifndef PONTO_H
+#ifndef PONTO_H // Para não dar erro a compilar se fizer include mais de 1x
 #define PONTO_H
+#include <stdio.h>
 
-// alinea a)
-typedef struct ponto ponto2D;
+typedef struct ponto ponto; // para não ter que escrever "struct ponto" e passar apenas a "ponto"
+
 struct ponto{
-    int x, y;
+    int x,y;
 };
 
-void printPonto(ponto2D a);
+void imprime_ponto(struct ponto p);
 
-void initPonto(ponto2D* p);
-
-void movePonto(ponto2D* p, int dx, int dy);
-
-// Aqui podemos definir estruturas
-// Declarar funções
-// Definir constantes
+void int_ponto(ponto *p);
 
 
 #endif /* PONTO_H */
