@@ -1,4 +1,3 @@
-
 #ifndef PONTO_H
 #define PONTO_H
 
@@ -14,5 +13,11 @@ void initPonto(ponto2D* p);
 
 void movePonto(ponto2D* p, int dx, int dy);
 
+// Aqui podemos definir estruturas
+// Declarar funções
+// Definir constantes
+
+
 #endif /* PONTO_H */
+
 
