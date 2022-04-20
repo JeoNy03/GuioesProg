@@ -1,0 +1,11 @@
+# ninja log v5
+0	270	6721455097866255	CMakeFiles/Exercicio03.dir/main.c.obj	552c734075c77f3a
+35	285	6721455098085687	CMakeFiles/Exercicio03.dir/ponto.c.obj	4b11d6ac1f3abb1
+41	287	6721455098105639	CMakeFiles/Exercicio03.dir/retangulo.c.obj	862a39668353fc9e
+287	653	6721455101706789	Exercicio03.exe	3210769f3cc40ff0
+4	234	6721459754158139	CMakeFiles/Exercicio03.dir/main.c.obj	552c734075c77f3a
+40	248	6721459754317769	CMakeFiles/Exercicio03.dir/retangulo.c.obj	862a39668353fc9e
+249	540	6721459757170103	Exercicio03.exe	3210769f3cc40ff0
+4	237	6721467014616015	CMakeFiles/Exercicio03.dir/main.c.obj	552c734075c77f3a
+42	273	6721467014965122	CMakeFiles/Exercicio03.dir/retangulo.c.obj	862a39668353fc9e
+274	579	6721467017967077	Exercicio03.exe	3210769f3cc40ff0

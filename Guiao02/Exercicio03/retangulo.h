@@ -1,7 +1,3 @@
-//
-// Created by Henrique Marques on 30/03/2022.
-//
-
 #ifndef GUIAO2_RETANGULO_H
 #define GUIAO2_RETANGULO_H
 
@@ -22,4 +18,8 @@ int contem_ponto(retangulo r, ponto2D p);
 
 void desloca_retangulo(retangulo *r, int dx, int dy);
 
-#endif //GUIAO2_RETANGULO_H
+void adiciona(retangulo tabela[], int *n_elementos, int tam_max);
+
+void imprime_todos(retangulo tabela[], int n_elementos);
+
+#endif

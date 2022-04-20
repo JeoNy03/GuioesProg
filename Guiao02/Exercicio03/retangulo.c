@@ -1,6 +1,3 @@
-//
-// Created by Henrique Marques on 30/03/2022.
-//
 #include <stdio.h>
 #include "retangulo.h"
 
@@ -30,3 +27,19 @@ void desloca_retangulo(retangulo *r, int dx, int dy) {
     movePonto(&r->canto, dx, dy);
 }
 
+void adiciona (retangulo tabela[], int *n_elementos, int tam_max){
+    if(*n_elementos>=tam_max){
+        return;
+    }
+
+    retangulo r;
+    initRetangulo(&r);
+    tabela[*n_elementos]=r;
+    (*n_elementos)++;
+}
+
+void imprime_todos(retangulo tabela[], int n_elementos){
+    for(int i=0;i<n_elementos;i++){
+        printRetangulo(tabela[i]);
+    }
+}
