@@ -5,7 +5,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Exercicio03" targetName="Exercicio03" />
+      <config projectName="Exercicio06" targetName="Exercicio06" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -14,7 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a7335a-f6a1-4157-86ee-b88d06483019" name="Changes" comment="" />
+    <list default="true" id="cd3b7220-1c7c-4206-bb01-55aa0717bb32" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,15 +27,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main.c" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2021" />
     <option name="minorVersion" value="3.4" />
   </component>
-  <component name="ProjectId" id="283MNylSwsvgUiUPSKZVU02UAZA" />
+  <component name="ProjectId" id="28N9EY4yyKiubBpq0XenCT3zEhZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,7 +62,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration name="Exercicio03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Exercicio03" TARGET_NAME="Exercicio03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Exercicio03" RUN_TARGET_NAME="Exercicio03">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio06" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Exercicio06" TARGET_NAME="Exercicio06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Exercicio06" RUN_TARGET_NAME="Exercicio06">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -65,13 +76,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="02a7335a-f6a1-4157-86ee-b88d06483019" name="Changes" comment="" />
-      <created>1650440780422</created>
+      <changelist id="cd3b7220-1c7c-4206-bb01-55aa0717bb32" name="Changes" comment="" />
+      <created>1651046064504</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1650440780422</updated>
-      <workItem from="1650440783348" duration="3989000" />
-      <workItem from="1651045275015" duration="7000" />
+      <updated>1651046064504</updated>
+      <workItem from="1651046066115" duration="4170000" />
     </task>
     <servers />
   </component>

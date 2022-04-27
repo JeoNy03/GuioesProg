@@ -13,6 +13,5 @@ int main() {
 
     imprime_todos(tabela,n_elementos);
 
-
     return 0;
 }
