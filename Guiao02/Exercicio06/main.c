@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 typedef struct contacto{
     char nome[100];
@@ -41,11 +42,24 @@ void escrever_contactos(contacto* agenda, int n_contactos){
     }
 }
 
-//int indica_numero();
+contacto* encontra_contacto(contacto *agenda, int n_contactos, char *procurar){
+    for(int i=0;i<n_contactos;i++){
+        if(strcmp(agenda[i].nome,procurar)==1){
+            return &agenda[i];
+        }
+    }
+
+    return NULL;
+}
+
+int indica_numero(contacto *agenda, int n_contactos, char *procurar){
+    return (encontra_contacto(agenda,n_contactos,procurar)->num);
+}
 
 int main(){
     contacto *agenda = NULL;
     int n_contactos = 0;
+    char procurar[100];
 
     agenda = adiciona_contacto(agenda, &n_contactos);
 
@@ -68,6 +82,12 @@ int main(){
 
 
     escrever_contactos(agenda, n_contactos);
+
+    printf("Nome a procurar: ");
+    scanf("%s", procurar);
+
+    printf("Numero do contacto pedido: %d",indica_numero(agenda, n_contactos, procurar));
+
 
     printf("\n");
     return 0;
